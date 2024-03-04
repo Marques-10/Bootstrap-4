@@ -1,0 +1,12 @@
+header,
+header > div,
+header > div > div,
+.list-group > a {
+    height: 10vh;
+    background-color: #dbdbdb;
+}
+
+section,
+body > section > div > div > div.col-sm-4 > div {
+    height: 89vh;
+}
