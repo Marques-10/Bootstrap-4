@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="#">
+            
+            <div class="form-row">
+                <div class="col form-group">
+                    <label for="firstname">Primeiro nome</label>
+                    <input name="firstname" id="firstname" type="text" class="form-control">
+                </div>
+                <div class="col form-group">
+                    <label for="lastname">Último nome</label>
+                    <input name="lastname" id="lastname" type="text" class="form-control">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="col-sm-3 form-group">
+                    <label for="zipcode">CEP</label>
+                    <input type="text" class="form-control" id="zipcode">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-sm-9 form-group">
+                    <label for="adress">Endereço</label>
+                    <input name="adress" id="adress" type="text" class="form-control" placeholder="Rua, Av...">
+                </div>
+                <div class="col-sm-3 form-group">
+                    <label for="number">Número</label>
+                    <input name="number" id="number" type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-sm-6 form-group">
+                    <label for="complement">Complemento</label>
+                    <input name="complement" id="complement" type="text" class="form-control">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="district">Bairro</label>
+                    <input name="district" id="district" type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-sm-4 form-group">
+                    <label for="city">Cidade</label>
+                    <input name="city" id="city" type="text" class="form-control">
+                </div>
+                <div class="col-6 col-sm-4 form-group">
+                    <label for="state">Estado</label>
+                    <input name="state" id="state" type="text" class="form-control">
+                </div>
+                <div class="col-6 col-sm-4 form-group">
+                    <label for="country">País</label>
+                    <input name="country" id="country" type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <button class="btn btn-primary btn-block">Salvar</button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(() => {
+          
+        })
+    </script>
+</body>
+</html>
